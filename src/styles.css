@@ -1,1 +1,411 @@
-/* You can add global styles to this file, and also import other style files */
+@media (min-width: 992px) {
+  .alto-100 {
+    height: 100vh;
+  }
+}
+
+body {
+background-size: 100%;
+background: rgb(68,131,28);
+background: linear-gradient(90deg, rgba(68,131,28,0.9668242296918768) 0%, rgba(79,166,124,1) 25%, rgba(11,236,162,0.9612219887955182) 75%, rgba(83,159,223,1) 100%);
+
+}
+
+.edit {
+font-size: 20px;
+font-weight: bolder;
+text-align: right;
+align-items: right;
+padding: 10px;
+margin: 20px;
+
+}
+
+
+/*Barra Navegacion*/
+.navbar {
+  margin-left: 20px;
+  margin-right:20px;
+background-color:black;
+border: solid 4px rgb(35, 133, 48) ;
+ }
+
+.nav-link {
+
+align-items: center;
+align-content:center;
+margin-left:15px;
+margin-right:15px;
+font-weight:bolder;
+color: rgb(68,131,28);
+font-size: 15px;
+}
+
+.navbar-toggler-icon{
+color: #09b4df;
+}
+
+.btn-nav {
+padding-top: 5px;
+color:rgb(68,131,28);
+font-size: 15px;
+}
+.nav-link:hover {
+font-weight:bolder;
+color: #09b4df;
+font-size: 17px;
+}
+
+.fa-home {
+
+color: rgb(68,131,28);
+font-size: 25px;
+}
+
+.fa-home:hover {
+font-weight:bolder;
+color: #09b4df;
+font-size: 25px;
+}
+
+.login {
+position:absolute;
+
+}
+
+/* Fin Barra Navegacion*/
+
+
+/*Bienvenida*/
+
+.bg-image {
+margin: 105px 20px 10px 20px;
+text-align: center;
+height:auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+
+.bv h1{
+
+  color: #09b4df;
+  font-size:3rem;
+  padding-top: 150px;
+  font-weight:bolder;
+}
+
+.bv span{
+color:rgb(68,131,28);
+font-size:3rem;
+padding-top: 150px;
+font-weight:bolder;
+}
+
+
+.subtitulo {
+  font-size: 2rem;
+  padding-top:50px;
+  font-weight:bolder;
+  color: #ccc;
+
+
+}
+
+.btn {
+margin-top: 100px;
+margin-bottom: 40px;
+margin-left: 10px;
+height:50px;
+width: 150px;
+border: solid 4px rgb(68,131,28);
+font-weight:bolder;
+color: rgb(68,131,28);
+}
+
+.btn:hover {
+border: solid 4px  #09b4df;
+font-weight:bolder;
+color: #09b4df
+}
+
+/*Fin Bienvenida*/
+
+/*Acerca de mi*/
+
+.acerca {
+margin: 10px 20px 10px 20px;
+height: auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+
+.home-image img{
+width: 20px;
+height: 20px;
+}
+
+.img-perfil {
+width: 290px;
+height: 290px;
+position:center;
+align-items: center;
+border-radius: 50%;
+box-shadow: 0px 0px 15px 15px rgba(27, 134, 45, 0.467);
+}
+
+.home-text {
+ margin-top: 20px;
+background-color: black;
+opacity: 0.5;
+padding:10px;
+border: solid 4px rgb(35, 133, 48);
+display: table;
+}
+
+.home-text p {
+text-align: justify;
+font-size: 20px;
+color:#fff;
+font-weight: bolder;
+}
+
+
+
+.texto-datos {
+color:  #736;
+font-size: 30px;
+}
+
+.tit-red {
+color: rgb(68,131,28);
+}
+
+#github,
+#facebook,
+#instagram,
+#whatsapp
+{
+margin-top: 20px;
+margin-bottom: 30px;
+font-size: 30px;
+color:rgb(68,131,28);;
+padding:11px 19px;
+}
+
+
+/*Fin Acerca de mi*/
+
+/*Formacion academica*/
+.form-acade {
+margin: 10px 20px 10px 20px;
+height: auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+
+.img-logo{
+margin:5px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+border: solid 2px rgb(35, 133, 48) ;
+padding: 5px;
+}
+
+.form-acade h5{
+
+margin:5px;
+padding: 5px;
+color: #ec731e;
+}
+
+.form-acade h6{
+margin:5px;
+padding: 5px;
+color: #09b4df;
+}
+
+.form-acade p{
+margin:5px;
+padding: 5px;
+color:#9ba822;
+font-weight: bolder;
+}
+
+.img-logo:hover{
+width: 70px;
+height: 70px;
+}
+
+.image {
+text-align: center;
+}
+.image p{
+color: #09b4df
+}
+
+.titulo {
+margin-top: 20px;
+  text-align: center;
+  color: rgb(68,131,28);
+  margin-bottom:20px;
+  font-weight: bolder;
+}
+
+.establec {
+  padding-left: 100px;
+  }
+
+.establec:hover{
+ font-size: 20px;
+ font-weight: bolder;
+}
+.editar i {
+  text-align: right;
+}
+
+.cont-form {
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background:black;
+  opacity: 0.7;
+}
+
+/*Fin Formacion academica*/
+
+/*Experiencia Laboral*/
+
+.exp-lab {
+margin: 10px 20px 10px 20px;
+height: auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+
+.cont-exp {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background:black;
+  margin-top: 60px;
+  opacity: 0.7;
+}
+
+.tiempo {
+  font-weight: bolder;
+  padding-left: 30px;
+  color: #09b4df;
+}
+
+.tarea {
+  padding-left: 30px;
+  font-weight: bolder;
+  color:#fff;
+}
+
+/*Fin Experiencia Laboral*/
+
+/*Skills*/
+
+.skills {
+margin: 10px 20px 10px 20px;
+height: auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+.icon-skills h5 {
+  font-weight: bolder;
+  text-align: center;
+  color: #09b4df;
+}
+
+.circle {
+  text-align: center;
+}
+.icon-skills h6 {
+  font-weight: bolder;
+  text-align: center;
+  color: #ffff;
+}
+
+
+.cont-skills {
+
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background:black;
+  margin-top: 60px;
+  opacity: 0.7;
+
+}
+
+.icon-skills {
+padding: 5px 0px 5px 0;
+text-align: center;
+align-content: center;
+align-items: center;
+}
+.img-skills{
+width: 80px;
+height: 80px;
+}
+
+.first-skills {
+padding: 15px;
+margin-top: 60px;
+margin-left: 15px;
+margin-right: 15px;
+background:black;
+opacity: 0.7;
+}
+
+
+/*Fin Skills*/
+
+
+/*Proyectos*/
+.proyectos {
+margin: 10px 20px 10px 20px;
+height: auto;
+background-image:url(assets/imagenes/fondo1.jpeg);
+background-position: center;
+border: solid 4px rgb(35, 133, 48) ;
+}
+
+.cont-proy {
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background:black;
+  opacity: 0.7;
+}
+
+.tit-proy, .baj-proy, .tit-trab {
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  color: #09b4df;
+}
+
+.carousel-item img{
+  width: 100px;
+  height: 200px;
+}
+
+.col-proy img {
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+}
+/*Fin Proyectos*/

@@ -1,0 +1,20 @@
+<div class="shadow-1-strong cont-princ rounded mb-5 exp-lab" id="exp-lab">
+  <div class="container-fluid">
+    <h3 class="titulo">EXPERIENCIA LABORAL</h3>
+  </div>
+  <div class="cont-exp">
+  <div class="row" *ngFor="let trabajo of workList">
+    <div class="col-lg-3 tiempo">
+      <h6>Desde <span> {{trabajo.start}} </span> hasta <span> {{trabajo.end}}  </span></h6>
+    </div>
+    <div class="col-lg-9 tarea">
+      <p>{{trabajo.work}} </p>
+    </div>
+  </div>
+
+  </div>
+  <div class="edit">
+    <a href="#"><i class="fa-solid fa-pen-clip text-success"></i></a>
+  </div>
+</div>
+

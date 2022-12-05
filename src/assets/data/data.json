@@ -1,0 +1,127 @@
+{
+	  "name": "Carlos Octavio Otero",
+	  "age": 45,
+	  "antiquity": 25,
+    "imgperfil": "./assets/imagenes/perfil.jpg",
+	  "interesting": "Mi interés por la programación, siempre estuvo latente, aunque por trabajo, nunca logre acercarme. La lógica y la matemática son herramientas esenciales para mi vida. Hoy doy mis primeros pasos en la programación, deseando recorrer un largo camino.",
+	  "educacion": [{
+			              "study": "ESTUDIOS SECUNDARIOS",
+			              "academy": "E.N.E.T. N°1 de Berazategui",
+			              "title": "Técnico Electromecánico",
+			              "start": 1990,
+			              "end": 1995,
+                    "imgedu": "./assets/imagenes/poli.jpg"
+		},
+		            {
+			              "study": "ESTUDIOS TERCIARIOS",
+			              "academy": "ESCUELA DE POLICIA JUAN VUCETICH",
+			              "title": "Técnico Superior en Seguridad Pública",
+			              "start": 1997,
+			              "end": 1998,
+                    "imgedu": "./assets/imagenes/vuce.png"
+		},
+
+		            {
+			"study": "ESTUDIOS UNIVERSITARIOS",
+			"academy": "Universidad Nacional de Lanus",
+			"title": "Licenciado en Seguridad - sin finalizar",
+			"start": 2006,
+			"end": 2009,
+           "imgedu": "./assets/imagenes/unla.png"
+		},
+		{
+			"study": "ESTUDIOS EN PROGRAMACION",
+			"academy": "Argentina Programa",
+			"title": "Full Stack Web Junior",
+			"start": 2021,
+			"end": 2023,
+            "imgedu": "./assets/imagenes/ARGPROG.png"
+		}
+	],
+  "skills":[{
+              "name": "HTML",
+              "imgskill": "./assets/imagenes/html.png",
+              "value": "75"
+  },
+             {
+              "name": "CSS",
+              "imgskill": "./assets/imagenes/css.png",
+              "value": "55"
+},
+             {
+              "name": "JAVASCRIPT",
+              "imgskill": "./assets/imagenes/javas.png",
+              "value": "45"
+},
+{
+              "name": "BOOTSTRAP",
+              "imgskill": "./assets/imagenes/bootstrap.png",
+              "value": "35"
+},
+
+             {
+              "name": "ANGULAR",
+              "imgskill": "./assets/imagenes/angular.png",
+              "value": "30"
+},
+
+             {
+             "name": "NODE",
+             "imgskill": "./assets/imagenes/node.png",
+             "value": "25"
+},
+            {
+            "name": "MySQL",
+            "imgskill": "./assets/imagenes/mysql.png",
+            "value": "30"
+},
+
+            {
+            "name": "VISUAL STUDIO",
+            "imgskill": "./assets/imagenes/visuals.png",
+            "value": "65"
+},
+            {
+            "name": "GITHUB",
+            "imgskill": "./assets/imagenes/github.png",
+            "value": "30"
+}
+],
+
+      "trabajo": [{
+             "start": 1998,
+             "end": 2006,
+             "work": "Docente e Instructor en la E.P. Juan Vucetich"
+},
+{
+  "start": 2006,
+  "end": 2007,
+  "work": "Jefe de Seguridad Comisarias La Plata 13°, 10° y 1°"
+
+},
+{
+  "start": 2008,
+  "end": 2013,
+  "work": "Jefe Sección Operaciones y Jefe Sección Secretaria, Jefatura Departamental La PLata"
+},
+{
+  "start": 2013,
+  "end": 2019,
+  "work": "Jefe Sección Secretaria y Subjefe Departamental, Jefatura Departamental La PLata"
+},
+{
+  "start": 2019,
+  "end": 2020,
+  "work": "Jefe de Turno Comisaria Ezeiza 5°"
+},
+{
+  "start": 2020,
+  "end": 2022,
+  "work": "Jefe de Turno Estación de Policía Comunal Pila"
+}
+]
+}
+
+
+
+
